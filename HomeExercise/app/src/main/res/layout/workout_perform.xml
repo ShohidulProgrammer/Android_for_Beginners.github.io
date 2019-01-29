@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/workoutPerformRelativeLayoutId"
+    >
+
+    <!--<include-->
+        <!--layout="@layout/workout_ready_to_go" />-->
+    <!---->
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        app:cardElevation="10dp"
+        android:padding="40dp"
+        android:layout_margin="10dp"
+        android:alpha="1"
+        android:id="@+id/workoutPerformCardViewId"
+
+        >
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/workoutPerformGifImageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:padding="3dp"
+            android:src="@drawable/junu"
+            android:tooltipText="@string/image_name"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_videocam_black_24dp"
+            android:layout_gravity="right|center"
+            android:layout_margin="10dp"
+            android:alpha="0.5"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_record_voice_over_black_24dp"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:alpha="0.5"
+            />
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.50"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            />
+
+
+
+        <ProgressBar
+            android:id="@+id/workoutPerformProgressBarId"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="1dp"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:progress="20"
+            android:layout_gravity="bottom"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/workoutPerformCountRelativeLayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            >
+
+            <TextView
+                android:layout_weight="4"
+                android:id="@+id/workoutCountTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Workout Title"
+                android:padding="8dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/totalWorkoutTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="Day 1"
+                android:padding="8dp"
+                android:layout_gravity="right"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/workoutTitleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="08"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/dayCountTextViewId"
+            android:text="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/levelCountTextViewId"
+            android:text="level 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="bottom"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="10dp"
+        android:padding="40dp"
+        android:layout_margin="2dp"
+        android:id="@+id/workoutPerformDescriptionCardViewId"
+        android:layout_below="@+id/workoutPerformCardViewId"
+        >
+
+
+        <ScrollView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="230dp">
+
+            <RelativeLayout
+                android:id="@+id/descriptionRelativeLayoutId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/howToPerformTextViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="How to Perform"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:id="@+id/descriptionTextViewId"
+                    android:layout_below="@+id/howToPerformTextViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="This is Description. This is Description. This is Description. This is Description. This is Description. This is Description."
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/benefitTextViewId"
+                    android:layout_below="@+id/descriptionTextViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="This is Description. This is Description. This is Description. This is Description. This is Description. This is Description."
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/benefitDescriptionTextViewId"
+                    android:layout_below="@+id/benefitTextViewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Benefit."
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/arrowCardViewId"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/workoutPerformDescriptionCardViewId"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/arrowLeftImageViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/12"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="150dp"
+                android:id="@+id/arrowTotalWorkoutTextViewId"
+                android:layout_toRightOf="@id/arrowLeftImageViewId"
+                />
+
+            <ImageView
+                android:id="@+id/arrowRightImageViewId"
+                android:layout_toRightOf="@+id/arrowTotalWorkoutTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="120dp"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

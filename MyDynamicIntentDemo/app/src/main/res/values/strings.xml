@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyDynamicIntentDemo</string>
+    <string name="bangladesh">
+        this is songsodh vobon in bangladesh at dhaka.\n
+        this is songsodh vobon in bangladesh at dhaka.\n
+
+    </string>
+
+    <string name="india">
+        This is tajmohol in India made by sahjahan.\n
+        This is tajmohol in India made by sahjahan.\n
+    </string>
+
+    <string name="pakistan">
+        This is badshahi mosque in Pakistan on of the famous traveling place.\n
+    </string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--<include-->
+        <!--layout="@layout/workout_cardview" />-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/workoutReadyToGoCardViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/readyToGoTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="Ready to go"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/timeIncrementTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="+10"
+            android:gravity="left|center"
+            android:layout_marginBottom="130dp"
+            android:layout_marginLeft="50dp"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/skipTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="skip"
+            android:gravity="right|center"
+            android:layout_marginBottom="130dp"
+            android:layout_marginRight="50dp"
+            android:padding="10dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/readyToGoProgressBarCircleId"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="100dp"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

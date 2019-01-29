@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:layout_margin="10dp"
+    android:alpha="1"
+    android:padding="40dp"
+    app:cardElevation="10dp"
+    android:id="@+id/workoutPerformCardViewId"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/workoutPerformGifImageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:padding="3dp"
+        android:src="@drawable/junu"
+        android:tooltipText="@string/image_name" />
+
+    <ImageButton
+        android:id="@+id/videoUrlImageButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_margin="10dp"
+        android:alpha="0.5"
+        android:src="@drawable/ic_videocam_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/speekImageButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.5"
+        android:src="@drawable/ic_record_voice_over_black_24dp" />
+
+    <TextClock
+        android:id="@+id/workTimeLeftTextClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:text="9.50"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+
+    <ProgressBar
+        android:id="@+id/workoutPerformProgressBarId"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="1dp"
+        android:progress="20" />
+
+
+    <LinearLayout
+        android:id="@+id/workoutPerformCountRelativeLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/workoutCountTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="8dp"
+            android:text="Workout Title"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalWorkoutTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Day 1"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/workoutTitleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="08"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/dayCountTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="20"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/levelCountTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="level 1"
+        android:textSize="20dp" />
+
+
+</android.support.v7.widget.CardView>
+
+

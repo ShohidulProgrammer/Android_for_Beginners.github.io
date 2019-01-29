@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyRedioButtonDemo</string>
+    <string name="male_txt">Male</string>
+    <string name="female_txt">Female</string>
+    <string name="show_btn_txt">Show</string>
+</resources>

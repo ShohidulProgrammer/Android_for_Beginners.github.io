@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyGridViewDemo</string>
+    <string-array name="country_name">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afganstan</item>
+
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afganstan</item>
+
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afganstan</item>
+
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afganstan</item>
+    </string-array>
+</resources>

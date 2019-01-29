@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="275dp"
+    android:layout_gravity="bottom"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:padding="40dp"
+    android:layout_marginBottom="70dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_margin="20dp"
+    android:id="@+id/workoutPerformDescriptionCardViewId"
+    >
+
+   <ScrollView
+       android:id="@+id/workoutPerformDescriptionScrollViewId"
+       android:layout_margin="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:id="@+id/workoutDescriptionRelativeLayoutId"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/howToPerformTextViewId"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="How to Perform"
+               android:textSize="20dp"
+               android:layout_margin="10dp"
+               />
+           <TextView
+               android:id="@+id/workoutDescriptionTextViewId"
+               android:layout_below="@+id/howToPerformTextViewId"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="This is Description. This is Description. This is Description. This is Description. This is Description. This is Description."
+               android:textSize="20dp"
+               android:layout_margin="10dp"
+               />
+
+           <TextView
+               android:id="@+id/workoutBenefitTextViewId"
+               android:layout_below="@+id/workoutDescriptionTextViewId"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="Workout Benefit"
+               android:textSize="20dp"
+               android:layout_margin="10dp"
+               />
+
+           <TextView
+               android:id="@+id/workoutBenefitDescriptionTextViewId"
+               android:layout_below="@+id/workoutBenefitTextViewId"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="This workout out has lot of Benefit. eg, reduce belly fat. build your body healthy."
+               android:textSize="20dp"
+               android:layout_margin="10dp"
+               />
+
+       </RelativeLayout>
+
+
+   </ScrollView>
+</android.support.v7.widget.CardView>

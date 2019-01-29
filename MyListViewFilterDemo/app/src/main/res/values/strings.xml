@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyListViewFilterDemo</string>
+    <string-array name="country_name">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afganstan</item>
+    </string-array>
+</resources>

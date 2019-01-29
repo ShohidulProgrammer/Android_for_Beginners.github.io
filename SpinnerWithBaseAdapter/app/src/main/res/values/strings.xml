@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SpinnerWithBaseAdapter</string>
+
+    <string-array name="countryNames">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Afganstan</item>
+        <item>America</item>
+        <item>Japan</item>
+        <item>Qoria</item>
+    </string-array>
+    
+    <string-array name="population">
+        <item>18 million</item>
+        <item>100 million</item>
+        <item>50 million</item>
+        <item>30 million</item>
+        <item>40 million</item>
+        <item>25 million</item>
+        <item>21 million</item>
+    </string-array>
+</resources>

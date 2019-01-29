@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyCheckBoxDemo</string>
+    <string name="ask_bay_txt">Select Your Bay List!</string>
+    <string name="milk_txt">Milk</string>
+    <string name="suger_txt">Suger</string>
+    <string name="honey_txt">Honey</string>
+    <string name="water_txt">Water</string>
+    <string name="show_btn_txt">Show List</string>
+</resources>

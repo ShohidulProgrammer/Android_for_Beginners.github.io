@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="65dp"
+       android:weightSum="4"
+       android:layout_marginTop="10dp" >
+
+       <ImageView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:src="@mipmap/ic_launcher"
+           android:id="@+id/imageViewId"
+           />
+       <LinearLayout
+           android:layout_weight="3"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:gravity="center_horizontal"
+               android:id="@+id/countryNameId"
+               android:text="Bangladesh"
+               android:textStyle="bold"
+               android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="5dp"
+               android:gravity="center_horizontal"
+               android:text="Click here to see the description...."
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+               android:textStyle="bold"
+               android:id="@+id/countryDescriptionId"
+               />
+       </LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>
